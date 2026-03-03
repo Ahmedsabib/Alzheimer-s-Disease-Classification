@@ -2,7 +2,7 @@
 
 Dataset Link: https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented?resource=download
 
-Undersampled dataset (derived from the original): https://drive.google.com/file/d/1LauG-A8BMNlEME3CRPQRbmaVMh7ZHe2f/view?usp=drive_link
+Undersampled dataset, used during the training (derived from the original): https://drive.google.com/file/d/1LauG-A8BMNlEME3CRPQRbmaVMh7ZHe2f/view?usp=drive_link
 
 # Implementation & Reproducibility Notes
 This repository contains a clean re-implementation of the models presented in the published paper.
