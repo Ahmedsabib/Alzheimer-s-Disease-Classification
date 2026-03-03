@@ -1,1 +1,15 @@
 # Alzheimer-s-Disease-Classification
+
+Dataset Link: https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented?resource=download
+
+Undersampled dataset (derived from the original): https://drive.google.com/file/d/1LauG-A8BMNlEME3CRPQRbmaVMh7ZHe2f/view?usp=drive_link
+
+Implementation & Reproducibility Notes
+This repository contains a clean re-implementation of the models presented in the published paper.
+
+The codebase was rebuilt from scratch using a unified and updated experimental pipeline. While the proposed method is implemented as described in the manuscript, two baseline models (InceptionV3 and MobileNetV2) may not exactly replicate the original experimental configuration reported in the paper. Potential sources of variation include differences in dataset preprocessing and class distribution handling, the absence of earlier class undersampling strategies used during manuscript experimentation, minor variations in training setup or hyperparameters, and updates to the framework or environment.
+
+Learning Rate Clarification
+During reproduction, it was observed that the learning rate reported in the manuscript (0.001) does not yield the performance described in the experimental results. After careful re-evaluation of the training configuration, the effective learning rate used during experimentation was 0.0001. The value 0.001 appears to have been reported mistakenly during manuscript preparation. The implementation in this repository reflects the correct learning rate (0.0001) used to obtain the published results. The primary contribution and proposed method remain consistent with the description in the published work.
+
+The purpose of this repository is to provide a clean, maintainable, and reproducible implementation of the framework, along with clarification where necessary to ensure transparency.
