@@ -7,7 +7,7 @@ Undersampled dataset, used during the training (derived from the original): http
 # Implementation & Reproducibility Notes
 This repository contains a clean re-implementation of the models presented in the published paper.
 
-While the proposed method is implemented as described in the manuscript, two baseline models (InceptionV3 and MobileNetV2) may not exactly replicate the original experimental configuration reported in the paper. Potential sources of variation include the absence of earlier class undersampling strategies used during manuscript experimentation and minor variations in training setup or hyperparameters.
+While the proposed method is implemented as described in the manuscript, the baseline models (InceptionV3 and MobileNetV2) may not exactly reproduce the performance reported in the paper. Potential sources of variation include the absence of earlier class undersampling strategies used during manuscript experimentation and minor variations in training setup or hyperparameters.
 
 # Learning Rate Clarification
 During reproduction, it was observed that the learning rate reported in the manuscript (0.001) does not yield the performance described in the experimental results. After careful re-evaluation of the training configuration, the effective learning rate used during experimentation was 0.0001. The value 0.001 appears to have been reported mistakenly during manuscript preparation. The implementation in this repository reflects the correct learning rate (0.0001) used to obtain the published results. The primary contribution and proposed method remain consistent with the description in the published work.
